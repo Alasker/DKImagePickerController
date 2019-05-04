@@ -68,7 +68,7 @@ class DKAssetGroupCell: UITableViewCell {
         return separator
     }()
 
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
 
         self.selectedBackgroundView = self.customSelectedBackgroundView
